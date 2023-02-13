@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Trending Page</title>
+    </head>
+    <body>
+        <form>
+            <div>
+            <!-- Abbr works with label but not input -->
+                <abbr title= "search"> 
+                    <label> Search your name </label>
+                    <input type="search"  placeholder="Please enter name"/>
+                </abbr>
+            </div>
+            <div>
+                <label> Please enter your name </label>
+                <input type="text"  placeholder="Please enter name"/>
+            </div>
+            <div>
+                <label> Please enter your email </label>
+                <input type="text"  placeholder="Please enter email" required />
+            </div>
+            <div>
+                <label> Please enter your phone </label>
+                <input type="number" placeholder="Please enter phone" required/>
+            </div>
+            <div>
+                <label> Please enter linked in url </label>
+                <input type="url" placeholder="Please enter url" />
+            </div>
+            <div>
+                <label> Please select your range </label>
+                <input type="range" placeholder="Please enter url" />
+            </div>
+            <div>
+                <label> Please select your color </label>
+                <input type="color"  placeholder="Please enter url" />
+            </div>
+            <div>
+                <label> Please select your dob </label>
+                <input type="date" placeholder="Please enter DOB" />
+            </div>
+           
+            <div>
+                <label> Please enter time ob </label>
+                <input type="time" placeholder="Please enter time" />
+            </div>
+            <div>
+                <label> Please enter your age </label>
+                <input type="number" placeholder="Please enter age" min="0" max="100"/>
+            </div>
+            <div>
+                <label> Please uolad your resume </label>
+                <input type="file"  placeholder="Please enter you resume"/>
+            </div>
+            <fieldset>
+                <legend>Please select your gender </legend>
+                <label for="male"> Male </label>
+                <input id="male" type="radio" name="gender"/>
+                <label for="female"> Female </label>
+                <input type="radio" id="female" name="gender"/>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Please select your preferance </legend>
+                <label for="veg"> Veg </label>
+                <input id="veg" type="checkbox" name="meal"/>
+                <label for="nonveg"> Non Veg </label>
+                <input type="checkbox" id="nonveg" name="meal"/>
+                <label for="vegan"> Vegan</label>
+                <input type="checkbox" id="vegan" name="meal"/>
+            </fieldset>
+            
+            <label for="brand">Select your brand</label>
+            <select id="brand">
+                <option>Please select your favorite brand</option>
+                <option>Andariod</option>
+                <option>iPhone</option>
+            </select>
+            <div>
+            <label for="new brand">Select your brand</label>
+            <select id="new brand" multiple required>
+                <option>Please select your favorite brand</option>
+                <option>Andariod</option>
+                <option>iPhone</option>
+                <option>sony</option>
+                <option>nokia</option>
+                <option>box</option>
+            </select>
+            </div>
+            <div>
+                <input type="submit"/>
+                <input type="reset"/>
+                <input type="button" value="button"/>
+            </div>
+            <div>
+                <button>Click <span> Here </span> </button>
+            </div>
+            <fieldset>
+            <legend>Please select your preferance </legend>
+                <label for="veg1"> Veg </label>
+                <input id="veg1" type="radio" name="meal"/>
+                <label for="nonveg1"> Non Veg </label>
+                <input type="radio" id="nonveg1" name="meal"/>
+                <fieldset>
+                    <legend>Please select your preferance </legend>
+                        <label for="chk"> Chicken </label>
+                        <input id="chk" type="checkbox" name="nv"/>
+                        <label for="mut"> Mutton</label>
+                        <input type="checkbox" id="mut" name="nv"/>
+                        <label for="fish"> fish</label>
+                        <input type="checkbox" id="fish" name="nv"/>
+                </fieldset>          
+        </fieldset>
+        <label> Enter your special instruction</label>
+        <textarea rows="5" cols="3" resize>
+
+        </textarea>
+        </form>
+    </body>
+</html>
