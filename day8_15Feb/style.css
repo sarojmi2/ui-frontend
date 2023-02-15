@@ -1,0 +1,27 @@
+
+body {
+    color: #1f37a1;
+    font: italic 15px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+h1 {
+    font: italic 40px/30px ;
+    text-decoration: underline #999 dashed 10px;
+    text-underline-offset: 10px;
+    text-align: center;
+    
+}
+dl {
+    font-weight : bolder;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    line-height: 24px;
+    margin: 20px;
+}
+dt{
+    text-decoration: underline blueviolet dotted 5px;
+}
+dd {
+    font-weight : normal;
+    margin: 10px;
+    padding-left: 50px;
+}
