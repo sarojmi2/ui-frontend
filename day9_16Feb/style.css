@@ -1,0 +1,40 @@
+
+/* *{
+    border: 1px dotted green;
+} */
+body {
+    color: #1f37a1;
+    font: italic 15px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+h1 , h2 {
+   
+    border: 2px solid blue;
+    border-left: 40px groove blue;
+    border-radius: 10px;
+}
+div > p {
+    color: red;
+}
+div + p {
+
+}
+div ~ p {
+
+}
+nav > a {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px ;
+    border:5px dotted blue;
+    border-radius: 10px;
+    
+}
+a:hover {
+    background: red;
+}
+section > a {
+    display: block;
+}
+a[href$=".com"] {
+    color: #gray;
+}
