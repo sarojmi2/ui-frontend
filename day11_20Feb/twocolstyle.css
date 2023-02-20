@@ -27,18 +27,22 @@ body {
 /* section ~ section {
     margin: 10px;
 } */
+.hero{
+    display: flex;
+}
 .hero_image {
     border-radius: 5px;
-   
+    background-color: blue;
+    border-radius: 10px;
 }
 .hero--right {
-    
     width: 500px;
     margin-left: 150px;
     margin-top: 62px;
 }
 img {
     width: 500px;
+    padding: 10px;
 }
 h1{
     font-size: 30px;

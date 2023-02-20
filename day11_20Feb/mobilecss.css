@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --font-red: red;
+    --font-black : black;
+    --font : arial;
+}
+main {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     width: 1200px;
+    /*  text-align: center; */
+}
+section:first-child {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.portfolio > section , .experience > section{
+    display: flex;
+    flex-direction: column;
+   
+}
+.experience>section~div {
+    border: 5px solid var(--font-black)
+}
+input[type="text"] , input[type="email"] {
+    display: flex;
+    margin-bottom: 15px;
+}
+.about > p{
+    display: flex;
+}
+h1{
+    font-size: 4em;
+    align-content: center;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+  @media screen and (min-width :992px){
+    .portfolio > section , .experience > section{
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    section:first-child {
+     flex-direction: row;
+     flex-wrap: wrap;
+    }
+} 
