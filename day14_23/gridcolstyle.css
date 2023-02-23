@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}
+.main{
+    display: flex;
+}
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: repeat(5,50px);
+    gap : 5px;
+    margin: 10px;
+    /* border: 10px solid pink; */
+}
+.span-col-24{
+    grid-row: 5/6;
+    grid-column: 3/5;
+}
+.span-col-43{
+    grid-row: 3/5;
+    grid-column: 4/5;
+}
+.span-col-14{
+grid-row: 1/2;
+grid-column: 1/5;
+}
+.display{
+    border-radius: 10px;
+ 
+}
+input {
+    border-radius: 5px;
+    width: 91%;
+    height: 69%;
+    background-color: rgba(2, 23, 23, 0.8);
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+::placeholder {
+    font-size: 30px;
+    text-align: right;
+    margin-top: 5px;
+    
+}
+div{
+    background-color: rgba(0,255,255,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;  
+    color: yellow;
+    border-radius: 10px;
+    transition: transform 1s , background-color 2s ease-out;
+   /*  animation: colChange 2s infinite; */ /* Animate works un comment to see  */
+  
+}
+div:hover {
+    transform: rotate(10deg);
+    background-color:blueviolet;
+    font-weight: 600;
+   /*  transform: translate(20px); */
+}
+@keyframes colChange {
+    0%{background: red;}
+    20%{background: gold;}
+    40%{background: blue;}
+    60%{background: rgb(31, 155, 74);}
+    80%{background: rgb(202, 13, 130);}
+    100%{background: plum;}
+}

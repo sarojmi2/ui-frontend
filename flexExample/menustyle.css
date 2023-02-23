@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+        background: #eee;
+    }
+    
+
+body {
+    font-size: 25px;
+    font-weight: 100;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+li{
+    list-style-type: none;
+   
+   
+}
+span {
+    display: block;
+    font-size: 10px;
+    color: gray;
+    font-weight: normal;
+    margin: 0.25rem 0 0 0;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+}
+a:hover {
+    background: #bebaba;
+    color: black;
+    
+   
+}
