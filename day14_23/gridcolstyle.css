@@ -33,7 +33,7 @@ grid-column: 1/5;
 }
 .display{
     border-radius: 10px;
- 
+    animation: colChange 5s infinite;  /* Animate works un comment to see  */
 }
 input {
     border-radius: 5px;
@@ -54,11 +54,13 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 400;  
-    color: yellow;
+    font-weight: 900;  
+    font-size: 25px;
+    color:#023a09;
     border-radius: 10px;
+    box-shadow: 5px 5px 0px rgba(249, 248, 248, 0.3);
     transition: transform 1s , background-color 2s ease-out;
-   /*  animation: colChange 2s infinite; */ /* Animate works un comment to see  */
+   
   
 }
 div:hover {
@@ -66,6 +68,8 @@ div:hover {
     background-color:blueviolet;
     font-weight: 600;
    /*  transform: translate(20px); */
+   cursor: pointer;
+   
 }
 @keyframes colChange {
     0%{background: red;}
