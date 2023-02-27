@@ -6,7 +6,11 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background: url(https://images.unsplash.com/photo-1676973620220-1351775b614f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80);
+      /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main{
     display: flex;
@@ -49,7 +53,7 @@ input {
     margin-top: 5px;
     
 }
-div{
+.grid1 div{
     background-color: rgba(0,255,255,0.8);
     display: flex;
     justify-content: center;
@@ -63,7 +67,7 @@ div{
    
   
 }
-div:hover {
+.grid1 div:hover {
     transform: rotate(10deg);
     background-color:blueviolet;
     font-weight: 600;
@@ -79,3 +83,41 @@ div:hover {
     80%{background: rgb(202, 13, 130);}
     100%{background: plum;}
 }
+
+.imageCard {
+    padding: 16px 75px;
+   background: aqua;
+   margin: 10px 0;
+   border-radius: 10px;
+}
+
+.imageCard::after {
+    position: absolute;
+    content: "";
+    top: calc(var(--card-height) / 6);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #4e00c2);
+      opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+  
+  
