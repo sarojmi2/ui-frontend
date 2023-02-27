@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+}
+.main{
+    display: flex;
+}
+div{
+    color: black;
+    background-color: yellow;
+    padding: 20px 20px;
+    margin: 15px;
+}
+.two {
+    padding: 40px 20px;
+}
