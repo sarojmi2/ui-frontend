@@ -1,0 +1,28 @@
+- A AA AAA
+- WCAG 2, 3.0
+- Valid HTML- Semantic HTML tags -> header -> div, button -> div, a- 
+ARIA*
+- color contrast -> design- forms -> label; aria-*
+- images -> if image is adding any content value -> descriptive alt tag 125 chars longdesc=""
+ if image is only for decroation -> role=presentation 
+ if image is not adding any value -> alt="" 
+  <figure>  alt="" <figcaption>...</figcaption> </figure>
+   functional image if image is a linked <a href="#"><img src="abc.jpg" alt="about " ></a> <p></p>
+   linked image if image is a linked <a href="#"><img src="abc.jpg" alt=""> about us</a> <p></p>
+   buttons are getting used as image<button><img src="search.svg" alt="search" /></button>
+   - Multimedia : audio, video: autplay (never), controls (all), transcript 
+   - animations: the important communication of any action shoukd not be only by animations should be minimal animations@prefer-reduce-motion(){​​​​​​}
+   ​​​​​​- keyboard focustabindex="" // DO NOT OVERRIDE- Keyboard user journey ( designer/ product owner)
+   - outline (never disable it)
+   - Form elements: label, clear error, and success messages, 
+   hints -> have the realtionship- Font-size(s), zoom-in/out, responsiveness - links, buttons (CTAs 40 x 40), 
+   UX- ARIA (Accessible Rich Internet Applciations)DO NOT USE ARIA
+   Semtnic tags > ARIAeg:<a role="button">read more</a><div role="button">Click here</div>
+    What tag 
+    - role What state/property 
+     What value  role="tab"  aria-pressed aria-label aria-labeled aria-live aria-current
+
+
+<div tabindex="0" role="tab" aria-pressed="false" id="moreInfo">Enter your name if you want us to add you to offer</div>
+
+CSS:a -> buttonbutton -> container::before{ content:""}positions, grid-areas,

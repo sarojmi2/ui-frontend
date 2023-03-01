@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0 15px;
+    background-color: rgb(232, 226, 226);
+}
+header{
+    border-radius: 75px;
+    background: fixed;
+    background-color: white;
+    margin-bottom: 25px;
+    z-index: 1000;
+    /* margin-bottom: 35px; 
+    width: 77rem;*/
+    width: 97%;
+}
+.navbar {
+    border-radius: 25px;
+}
+main{
+    position: relative;
+    top: 23px;
+}
+.card{
+    margin: 5px;
+    margin-bottom: 25px;
+    margin-top: 45px;
+}
+.hero-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    
+}
+.hero-img img {
+    border-radius: 96px;
+    padding: 10px;
+}
+.form-contact-news{
+    display: flex;
+    flex-direction: column;
+    margin:0 10rem;  
+    margin-bottom: 65px;
+}
+.getInTouch ,.news-letter {
+    border: 5px solid gainsboro;
+   
+}
+.getInTouch, .news-letter> h2 h3{
+    text-align: center;
+}
+@media screen and (min-width :600px){
+   .hero{
+    display: flex;
+    flex-direction: row;
+    }
+    .form-contact-news{
+        display: flex;
+        flex-direction: row;
+    } 
+    .getInTouch ,.news-letter {
+        border: 5px solid gainsboro;
+        width: 50%;
+}
+.feedback {
+    position: fixed;
+    z-index: 1000;
+    transform: translateX(32%) rotate(-90deg); 
+    bottom: 26%;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px 5px 0;
+}

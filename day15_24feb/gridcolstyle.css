@@ -8,8 +8,10 @@ body{
     height: 100vh;
  
 }
-.main{
+main{
     display: flex;
+    position: relative;
+    top: 23px;
 }
 div{
     color: black;

@@ -1,0 +1,16 @@
+@import 'typography';
+@import 'variables';
+$header-font : 24px;
+header{
+    background : $primary-color;
+    font-size:$header-font;
+}
+%button-primary{
+    background: blue;
+    font-size: 24px;
+    border: 2px dotted green;
+}
+button{
+    @extend %button-primary;
+    font-size: 18px;
+}

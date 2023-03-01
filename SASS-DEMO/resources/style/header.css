@@ -1,0 +1,20 @@
+h1 {
+  font-size: 72px;
+}
+
+header {
+  background: red;
+  font-size: 24px;
+}
+
+button {
+  background: blue;
+  font-size: 24px;
+  border: 2px dotted green;
+}
+
+button {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=header.css.map */
