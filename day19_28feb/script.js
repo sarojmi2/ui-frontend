@@ -17,7 +17,7 @@ const getMessage = () => {
 }
 //on click event listener 
 const btn = $.getElementById("send-msg");
-btn.addEventListener("click", {getMessage});
+btn.addEventListener("click", getMessage);
 
 // Rest
 
