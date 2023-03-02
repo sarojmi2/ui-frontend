@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="sytle.css" type="text/css"/>
+        
+        <title>
+            Heart Calculator
+        </title>
+    </head>
+    <body>
+    <main>
+    <section class="classic"> 
+        <h1> Heart Rate Calculator(Classic) </h1>
+        <p> Your heart rate should not go beyond 220-your Age  </p>
+        <p> Please Enter your Age </p>
+        <form>
+            <!--/* Add aria-lable */-->
+            <input type="text" id="userName" placeholder=" Please enter name"/> 
+            <input type="number" id="userAge" placeholder=" Please enter age"/>
+            <button id="check"> Click to Check </button>
+            
+        </form>
+        <p class="result-text" id="resultDisplay"> Text </p>
+        </section>
+<!-- Advance -->
+        <section class="advance"> 
+        <h1> Heart Rate Calculator (Advance)</h1>
+        <p> Your heart rate should not go beyond 220-your Age  </p>
+        <p> Please Enter your Age </p>
+        <form>
+            <!--/* Add aria-lable */-->
+            <input type="text" id="userNameAdvance" placeholder=" Please enter name"/> 
+            <div>
+                <label class="nameLabel"> Select Age </label>
+                <button class="click" id="minus"> - </button>
+                <input type="number" class="ageText" id="userAgeAdvance"/>
+                <button  class="click" id="plus"> +</button>
+                <label class="nameLabel"> Heart Rate </label>
+                <input type="text" class="display" id="result"/>
+            </div>
+          
+            
+        </form>
+        <p class="result-text" id="resultDisplay"> Text </p>
+        </section>
+        </main>
+        <script src="script.js"> </script>  
+        <script src="advanceScript.js"> </script>  
+    
+    </body>
+
+
+</html>

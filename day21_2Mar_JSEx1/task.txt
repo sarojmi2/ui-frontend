@@ -1,0 +1,9 @@
+[11:42 AM] Neha Sharma (Guest)
+Item Calculator: 2 inputs from user: name of the item, and price of the item
+
+	2. Increase the price by 10 after the user has enter the value and show in the html page
+
+[11:43 AM] Neha Sharma (Guest)
+convert the item names to uppercase
+
+// Age Counter with + and - . Should not go below 0 and above 100. 

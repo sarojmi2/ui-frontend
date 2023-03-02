@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.classic , .advance{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    top: 23px;
+    background-color: rgb(162, 155, 168);
+    border-radius: 15px;
+    margin: 25px;
+    box-shadow: 5px 5px 0px rgba(249, 248, 248, 0.3);
+}
+.advance {
+    background-color: rgb(136, 86, 179);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+input {
+    margin-bottom: 15px;
+}
+button{
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    border: 2px , solid, rgb(168, 30, 30);
+    margin-bottom: 5px;
+}
+.click{
+    background-color: rgba(2, 23, 23, 0.8);
+    color: white;
+    width: 26px;
+}
+.click:hover{
+    cursor: pointer;
+}
+.ageText, .display{
+    width: 45px;
+}
